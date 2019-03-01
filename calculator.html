@@ -18,6 +18,10 @@ function powerOfTwo() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 2);
 }
+function inverse() {
+ var num = document.getElementById("n1");
+ num.value = 1/num.value;
+ }
 </script>
 </head>
 <body>
@@ -28,7 +32,8 @@ function powerOfTwo() {
  <button onclick="cube()"> x^3 </button>
  <button onclick="sin()"> sin(x) </button>
  <button onclick="powerOfFour()"> x^4 </button>
-  <button onclick="powerOfTwo()"> x^2 </button>
+ <button onclick="powerOfTwo()"> x^2 </button>
+ <button onclick="inverse()"> 1/x </button>
  </p>
 </body>
 </html>
